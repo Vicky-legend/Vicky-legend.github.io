@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    background: rgb(19, 18, 18);
+    padding: 1rem 5rem;
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-weight: 1.1rem;
+    padding:0 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: aqua;
+    font-weight: 1.1rem;
+    padding:0 0.8rem;
+}
+.front{
+    background: black;
+}
+.front .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.front .text h6{
+    color:white;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+
+}
+.front .text h2{
+    color:aqua;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.front .text p{
+    color:white;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.front .text a{
+    background: rgb(56, 55, 55);
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color:white;
+}
+.front .text a:hover{
+    background: white;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color:black;
+}
+
+.About{
+    background: white;
+}
+.About .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.About .text h2{
+    color:rgb(1, 70, 70);
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.About .text p{
+    color:black;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.About .text a{
+    background: rgb(56, 55, 55);
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color:white;
+}
+.About .text a:hover{
+    background: white;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color:black;
+}
+.ach{
+    background: black;
+}
+.ach .one{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+}
+
+.tr{
+    background: white;
+}
+.tr .one{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+    color:white;
+}
